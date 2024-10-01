@@ -1,0 +1,15 @@
+
+
+.input_values{
+    display: flex;
+    gap: 20px;
+}
+.th td{
+    border: 2px solid black;
+    padding: 10px;
+
+}
+#table{
+    position: relative;
+    top: 20px;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no">
+    <title>Expanses Tracker -Dashboard</title>
+    <link rel="shortcut icon" href="./images/360_F_77927542_cHRl7hWpKGCAV8BgVw9r19WGU8EamDIE-removebg-preview.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/dashboad.css">
+
+</head>
+
+<body>
+    <!-- it sidebar function -->
+    <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="dashboard.html">Dashboard</a>
+    
+</div>
+
+<span class="openbtn" onclick="openNav()">&#9776;</span>
+
+    <!--its is a header section-->
+    <div class="header" id="head">
+        
+        <h1 class="logo_name">Expanses Tracker</h1>
+        <div class="product">
+            <a href="">
+                <h1 class="dashboard" id="dashboard">Dashboard</h1>
+            </a>
+            
+        </div>
+
+        <button class="logo_btn">Signup</button>
+    </div>
+    <!-- Its is a list of account section-->
+    <h5 class="List-of-name">List of accounts</h5>
+    <div class="list_of-account">
+        <div class="list-of-account-name">
+            <div class="cash" id="cash_box">
+                <p class="cash_place" id="cash_name_cash">Cash</p>
+                <h5 class="cash_amount" id="cash">---</h5>
+            </div>
+        </div>
+        <div class="list-of-account-name" id="exx">
+            <div class="cash" id="expanses_box"  >
+                <p class="cash_place">Expanses</p>
+                <h5 class="cash_amount" id="expanses">---</h5>
+            </div>
+        </div>
+        <div class="list-of-account-name" id="nee">
+            <div class="cash" id="total_box">
+                <p class="cash_place" id="net_name">Net Income</p>
+                <h5 class="cash_amount" id="Total">---</h5>
+            </div>
+        </div>
+    </div>
+    <div class="add_btn">
+        <button class="btn_content" id="addbutton">
+            <i class="fa-solid fa-plus" id="add_plus_bnt"></i>
+            <h2 class="add_name" id="add_name">Add</h2>
+        </button>
+    </div>
+
+    <!-- open card coding-->
+    <div class="whole_card" id="Whole_cards">
+            <div class="card_content" id="card_cont">
+                <i class="fa-solid fa-circle-xmark" id="close_marks" ></i>
+                <h2 class="heading_add">Add </h2><br><br>
+                <label for="Date" id="date_label" class="labels">Date:</label>
+                <input type="date"  id="date_input" class="input"><br><br>
+                <label  for="Amount" id="amount_label" class="labels">Amount:</label>
+                <input type="number" name="" id="amount_input" class="input"><br><br>
+                <p class="valid" id="valid"></p>
+                <label  for="category" id="Category_label" class="labels">Category:</label>
+                <input type="text" name="" id="Category_input" class="input" placeholder=" i.e Income , Food"><br><br>
+                <label  id="account_label" class="labels">Account:</label>
+                <select  name=" " id="dropdown_account" class="input">
+                    <option value="Cash" id="cash_drop">Cash</option>
+                    <option value="Expanses" id="expanses_id">Expanses</option>
+                </select>
+               <br><br> <button class="save" id="save" >Save</button>
+            </div>
+    </div>
+
+     <!-- Donut chart--> 
+      <h1 class="chart_name"> Transaction Chart</h1>
+     <canvas id="myDoughnutChart" style="width: 600; height: 500;" ></canvas>
+
+    <!-- last activites section-->
+    <div class="last_activity">
+        <h1 class="last_transaction_name">Last history</h1>
+        <table id="last_activites_section">
+            <thead id="table_head">
+                <tr class="table_heading" id="table_heading">
+                    <th class="table_heading">Date</th>
+                    <th class="table_heading">Account</th>
+                    <th class="table_heading">Category</th>
+                    <th class="table_heading">Amount</th>
+                    <th class="table_heading">Action</th>
+                </tr>
+            </thead>
+            <tbody class="table_body">
+
+            </tbody>
+           
+    </div>
+
+    <!-- Delete a popup button-->
+     <div class="delete_btn_div" id="delete_btn_div" >
+        <p class="delete_slogan">Conform to delete</p><br>
+        <button class="delete_btn" id="delete_btn">Delete</button>
+        <button class="cancel_btn" id="cancel_btn" onclick="close_delete()" >Cancel</button>
+     </div>
+
+
+ <!-- Footer section-->
+    <div class="footer" id="footer_">
+        <div class="footer_sec">
+            <!--Its is contact section-->
+            <div class="contact">
+                <div class="chatbox"><!--chatbox section-->
+                    <i class="fa-regular fa-comments" id="comment_icon"></i>
+                    <h5 class="chat_supp">24/7 Chart Support</h5><br>
+                </div><br>
+                <div class="chatbox"><!--phone Section-->
+                    <i class="fa-solid fa-phone" id="comment_icon"></i>
+                    <a href="tel:+">
+                        <h5 class="chat_supp">+91 6383965891</h5>
+                    </a><br>
+                </div><br>
+                <div class="chatbox"><!--mail section-->
+                    <i class="fa-solid fa-envelope" id="comment_icon"></i>
+                    <a href="mailto:">
+                        <h5 class="chat_supp">Sudhinnaveen38@gmail.com</h5>
+                    </a>
+                </div>
+            </div>
+            <!-- Its is feature section-->
+            <div class="f-section">
+                <div class="feature_section">
+                    <h1 class="feature">Features</h1>
+                    <h5 class="name">Dashboard</h5>
+                    <h5 class="name">Expanses Tracker</h5>
+                    <h5 class="name">Money Management</h5>
+                    <h5 class="name">Transaction</h5>
+                </div>
+                <div class="about_us">
+                    <h1 class="about-us">About us</h1>
+                    <h5 class="name">Contact-us</h5>
+                    <h5 class="name">Carrier</h5>
+                    <h5 class="name">Testimonial</h5>
+                </div>
+            </div>
+            
+            <div class="social_icons">
+                <a href="https://www.instagram.com/sudhin_04/?utm_source=qr&igsh=aGJrbzVibjQ0ZXN5"><i class="fa-brands fa-instagram" id="s_icon"></i><br><br></a>
+               <a href="x.com/Sudhin0?t=6m2UkwJr6QwOm7Avn-4-Ig&s=09"><i class="fa-brands fa-x-twitter" id="s_icon"></i><br><br></a> 
+                <a href="#"><i class="fa-brands fa-square-facebook" id="s_icon"></i><br><br></a>
+                <a href="https://github.com/sudhin4"><i class="fa-brands fa-github" id="s_icon"></i><br><br></a>
+            </div>
+        </div>
+        <div class="copywrite">
+            <i class="fa-regular fa-copyright" id="sc_icon"></i><p class="copy">  Copywrite All Rights Claimed</p>
+        </div>
+    </div>
+
+  
+    
+    <script src="./assets/dashboard.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+
+</html>

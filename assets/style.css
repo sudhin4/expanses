@@ -1,0 +1,1193 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+
+.logo_name{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    position: relative;
+    right: 185px;
+}
+.logo_btn{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    padding: 8px;
+    background-color: #1A2845;
+    color: white;
+    border: unset;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: px;
+}
+.logo_btn:hover{
+    color: black;
+    background-color: white;
+    transition-duration: 0.2s;
+    border: 1px solid rgba(0, 0, 0, 0.416);
+}
+.header{
+    position: relative;
+    left: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.main_page_word{
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+    font-size: 45px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.dashboard{
+    font-family: "Poppins", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    color: black;
+    
+}
+.words{
+    position: relative;
+    left: 25px;
+}
+.dashboard:hover{
+    text-decoration: underline;
+    transition-duration: 2s;
+}
+a{
+    text-decoration: none;
+}
+.product{
+    display: flex;
+    gap: 40px;
+}
+.bold_color_font{
+    color: blue;
+    font-size: 50px;
+}
+.front_page_para{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    word-wrap:break-word;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    opacity: 60%;
+}
+.front_image{
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    position: absolute;
+    right: -14%;
+    
+    
+}
+
+.front_img_sec {
+    animation-name: move;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes move {
+    0% {
+      margin-top: 0px;
+    }
+    50% {
+      margin-top: 30px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+
+.main_page{
+    display: flex;
+    position: relative;
+    top: 100px;
+    justify-content: space-evenly;
+    gap: 5px;
+    right: 200px;
+
+}
+.Start_btn{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    width: 120px;
+    height: 50px;
+    padding: 8px;
+    background-color: #1A2845;
+    color: white;
+    border: unset;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.Start_btn:hover{
+    color: black;
+    background-color: white;
+    transition-duration: 0.2s;
+    border: 1px solid rgba(0, 0, 0, 0.416);
+}
+.first_icon_img{
+    width: 70px;
+    height: 70px;
+}
+.first_icon_name{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19px;
+}
+.Second_logo_img{
+    width: 70px;
+    height: 70px;
+}
+.second_logo_name{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19px;
+}
+.third_logo_img{
+    width: 70px;
+    height: 70px;
+}
+.third_logo_name{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19px;
+}
+.fourth_logo_img{
+    width: 70px;
+    height: 70px;
+}
+.fourth_logo_name{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19px;
+}
+.long_logo_name{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 350px;
+}
+.Expanses_tracker{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: 5px;
+}
+.Transaction_manage{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: 5px;
+}
+.money_manage{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: 5px;
+}
+.user_friendly{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: 5px;
+}
+.money_saving_heading{
+    font-family: "Poppins", system-ui;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 400px;
+}
+.heading{
+    font-family: "Poppins", system-ui;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 25px;
+    position: relative;
+    left: 25px;
+}
+.first_para{
+    
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+}
+.para_img{
+    width: 455px;
+    height: 423px;
+    position: relative;
+    bottom: 100px;
+}
+#emergencies{
+    width: 540px;
+    height: 400px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.first_row_para{
+    position: relative;
+    top: 500px;
+}
+#heading{
+    position: relative;
+    left: 560px;
+}
+#para_img{
+    position: relative;
+    bottom: 150px;
+}
+#content{
+    gap: 20px;
+}
+#para_img{
+    position: relative;
+    left: 20px;
+}
+#first_para{
+    width: 686px;
+    height: 370px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+#para_img1{
+    width: 450px;
+    height: 423px;
+}
+#heading2{
+    position: relative;
+    left: 60px;
+}
+#five_img{
+    width: 445px;
+    height: 303px;
+    position: relative;
+    bottom: 70px;
+}
+/* testimonial sectiom*/
+.testimonial_heading{
+    font-family: "Poppins", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    position: relative;
+    top: 400px;
+    display: flex;
+    justify-content: center;
+}
+.testimonial{
+    position: relative;
+    top: 500px;
+}
+.test_img{
+    width: 100px;
+    height: 100PX;
+    border-radius: 100px;
+    position: relative;
+    left: 85px;
+}
+.test_name{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    position: relative;
+    left: 85px;
+    color: white;
+    
+}
+.Test_para{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    width: 300px;
+    height: auto;
+    word-wrap: break-word;
+    overflow: hidden;
+    color: white;
+}
+.testimonial{
+    width: 350px;
+    height: 330px;
+    background-color: #1A2845;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;    
+}
+#testimonial:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+#testimonial1:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+#testimonial2:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+
+
+.card{
+    position: relative;
+    top: 30px;
+    left: 25px;
+    cursor: pointer;
+
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content:space-evenly ;
+    position: relative;
+    bottom: 30px;
+    
+}
+#jessy{
+    position: relative;
+    right: 50px;
+}
+/* footer section */
+.footer{
+    position: relative;
+    top: 600px;
+}
+.feature{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #1877F2;
+}
+.name{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+}
+.about-us{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #1877F2;
+
+}
+.f-section{
+    display: flex;
+    gap: 190px;
+}
+#comment_icon{
+    font-size: 25px;
+}
+.chat_supp{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    position: relative;
+    
+}
+.name{
+    color: white;
+    cursor: pointer;
+}
+
+.chatbox{
+    display: flex;
+    gap: 20px;
+    color: white; 
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: #1A2845;
+    
+}
+.footer_sec{
+    display: flex;
+    gap: 110px; 
+    position: relative;
+    top: 50px;
+}
+.contact{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#s_icon{
+    color: white;
+    font-size: 30px;
+}
+.social_icons{
+    position: relative;
+    left: 230px;
+}
+#sc_icon{
+    color: white;
+    font-size: 13px;
+}
+.copy{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: white;
+    position: relative;
+    bottom: 2px;
+}
+.copywrite{
+    display: flex;
+    gap: 5px;
+    position: relative;
+    top: 290px;
+    left: 500px;
+
+}
+#three_bar{
+    display: none;
+}
+.mobile_images{
+    display: none;
+}
+#mobile_txt{
+    display: none;
+}
+.mobile_para{
+    display: none;
+}
+.Features_da{
+    display: none;
+}
+body{
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.openbtn{
+    display: none;
+}
+
+/* responsive website in max 1920px average desktop*/
+
+@media only screen and (min-width: 1919px)
+{
+ 
+    .logo_name{
+        position: relative;
+        right: 350px;
+    }
+    .product{
+        position: relative;
+        right: 200px;
+    }
+    .logo_btn{
+        position: relative;
+        right: 400px
+    }
+    .words{
+        position: relative;
+        left: 30px;
+    }
+    .main_page{
+        position: relative;
+        right: 415px;
+    }
+    .front_img_sec{
+        position: relative;
+        right: -150px;
+    }
+    .long_logo_name{
+        display: flex;
+        
+        position: relative;
+        right: 400px;
+    }
+    .Expanses_tracker{
+        position: relative;
+        left: 200px;
+    }
+    .Transaction_manage{
+        position: relative;
+        left: 150px;
+    }
+    .money_manage{
+        position: relative;
+        left: 80px;
+    }
+    .money_saving_heading{
+        position: relative;
+        right: 300px;
+    }
+    .heading{
+        position: relative;
+        left: 50px;
+    }
+    #first_para{
+        position: relative;
+        right: 5%;
+    }
+    .content{
+        position: relative;
+        right: 200px;
+    }
+    #emergencies{
+        position: relative;
+        right: 170px;
+    }
+    #para_img{
+        position: relative;
+        left: 200px;
+    }
+    #content2{
+        position: relative;
+        right: 438px;
+    }
+    #content3{
+        position: relative;
+        right: 210px;
+    }
+    #para_img_3{
+        position: relative;
+        right: 180px;
+    }
+    #content4{
+        position: relative;
+        right: 440px;
+    }
+    #para_img1{
+        position: relative;
+        left: 200px;
+    }
+    #content5{
+        position: relative;
+        right: 220px;
+    }
+    #five_img{
+        position: relative;
+        right: 200px;
+    }
+    .testimonial_heading{
+        position: relative;
+        right: 250px;
+    }
+    .wrapper{
+        position: relative;
+        right: 200px;
+        gap: -10px;
+    }
+    #testimonial{
+        position: relative;
+        left: 50px;
+    }
+    #testimonial1{
+        position: relative;
+        right: 65px;
+    }
+    #testimonial2{
+        position: relative;
+        right: 200px;
+    }
+    .social_icons{
+        position: relative;
+        right: 500px;
+    }
+    #heading0{
+        position: relative;
+        right: 900px;
+    }
+    #heading{
+        position: relative;
+        
+        right: 1200px;
+    }
+    #heading2{
+        position: relative;
+        left: 270px;
+    }
+    body{
+        position: relative;
+        left: 300px;
+    }
+    .footer{
+        position: relative;
+        left: -200px;
+    }
+    
+    
+
+
+}  
+/* width is  1318 */
+
+@media only screen and (min-width: 1321px)
+{
+ 
+    .logo_name{
+        position: relative;
+        right: 350px;
+    }
+    .product{
+        position: relative;
+        right: 200px;
+    }
+    .logo_btn{
+        position: relative;
+        right: 400px
+    }
+    .words{
+        position: relative;
+        left: 30px;
+    }
+    .main_page{
+        position: relative;
+        right: 415px;
+    }
+    .front_img_sec{
+        position: relative;
+        right: -150px;
+    }
+    .long_logo_name{
+        display: flex;
+        
+        position: relative;
+        right: 400px;
+    }
+    .Expanses_tracker{
+        position: relative;
+        left: 200px;
+    }
+    .Transaction_manage{
+        position: relative;
+        left: 150px;
+    }
+    .money_manage{
+        position: relative;
+        left: 80px;
+    }
+    .money_saving_heading{
+        position: relative;
+        right: 300px;
+    }
+    .heading{
+        position: relative;
+        left: 50px;
+    }
+    #first_para{
+        position: relative;
+        right: 5%;
+    }
+    .content{
+        position: relative;
+        right: 200px;
+    }
+    #emergencies{
+        position: relative;
+        right: 170px;
+    }
+    #para_img{
+        position: relative;
+        left: 200px;
+    }
+    #content2{
+        position: relative;
+        right: 438px;
+    }
+    #content3{
+        position: relative;
+        right: 210px;
+    }
+    #para_img_3{
+        position: relative;
+        right: 180px;
+    }
+    #content4{
+        position: relative;
+        right: 440px;
+    }
+    #para_img1{
+        position: relative;
+        left: 200px;
+    }
+    #content5{
+        position: relative;
+        right: 220px;
+    }
+    #five_img{
+        position: relative;
+        right: 200px;
+    }
+    .testimonial_heading{
+        position: relative;
+        right: 250px;
+    }
+    .wrapper{
+        position: relative;
+        right: 200px;
+        gap: -10px;
+    }
+    #testimonial{
+        position: relative;
+        left: 50px;
+    }
+    #testimonial1{
+        position: relative;
+        right: 65px;
+    }
+    #testimonial2{
+        position: relative;
+        right: 200px;
+    }
+    .social_icons{
+        position: relative;
+        left: 1500px;
+    }
+    .heading{
+        position: relative;
+        left: 250px;
+    }
+    #heading{
+        position: relative;
+        left: 970px;
+    }
+    #heading2{
+        position: relative;
+        left: 270px;
+    }
+    body{
+        position: relative;
+        left: 200px;
+        right: 200px;
+    }
+    .footer{
+        position: relative;
+        right: 300px;
+        
+    }
+    
+
+
+}  
+/* mobile media query 430 resolution */
+@media only screen and (max-width: 430px){
+    #front_image_cash{
+        display: none;
+    }
+    
+    .logo_name{
+        font-size: 19px;
+        position: relative;
+        right: 45px;
+        top: 10px;
+    }
+    .dashboard{
+        display: none;
+    }
+    .logo_btn{
+        width: 80px;
+        height: 40px;
+        font-size: 15px;
+        position: relative;
+        right: 50px;
+    }
+    .mobile_images{
+        display: block;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        left: 230px;
+       top: 20px;
+        
+    }
+    .front_img_sec {
+        animation-name: move;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+      }
+      
+      @keyframes move {
+        0% {
+          margin-top: 0px;
+        }
+        50% {
+          margin-top: 0px;
+        }
+        100% {
+          margin-top: 0px;
+        }
+      }
+      .main_page_word{
+        display: none;
+      }
+      .front_page_para{
+        display: none;
+      }
+      #mobile_txt{
+        width: 300px;
+        display: block;
+        font-family: "Poppins", system-ui;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 21px;
+        position: relative;
+        left: 250px;
+        bottom: 120px;
+      }
+      .main_page{
+        display: block;
+        
+      }
+      .se{
+        position: relative;
+        left: 40px;
+      }
+      .mobile_para{
+        font-family: "Poppins", system-ui;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        opacity: 70%;
+        display: block;
+        position: absolute;
+        left: 75%;
+        bottom: 100%;
+        width: 150px;
+
+      }
+      .Start_btn{
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+        position: absolute;
+        left: 300px;
+        top: 20px;
+        
+      }
+      .long_logo_name{
+        position: relative;
+        
+      }
+      /* first icon */
+      .first_icon_img{
+        width: 36px;
+        height: 36px;
+      }
+      .first_icon_name{
+        font-size: 10px;
+        position: relative;
+        right: 13px;
+      }
+      /* second icon */
+      .Second_logo_img{
+        width: 36px;
+        height: 36px;
+      }
+      .second_logo_name{
+        font-size: 10px;
+        position: relative;
+        right: 13px;
+      }
+      /* third icon */
+      .third_logo_img{
+        width: 36px;
+        height: 36px;
+      }
+      .third_logo_name{
+        font-size: 10px;
+        position: relative;
+        right: 13px;
+      }
+      /* fourth icon */
+      .fourth_logo_img{
+        width: 36px;
+        height: 36px;
+      }
+      .fourth_logo_name{
+        font-size: 10px;
+        position: relative;
+        right: 13px;
+      }
+      .money_manage{
+        display: none;
+      }
+      .long_logo_name{
+        position: relative;
+        top: z;
+      }
+      .Features_da{
+        font-family: "Poppins", system-ui;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+        display: block;
+        position: relative;
+        top: 300px;
+        left: 130px;
+      }
+      .main_page{
+        position: relative;
+        top: 150px;
+      }
+     
+      
+      .money_saving_heading{
+        font-size: 20px;
+      }
+      .content{
+        display: block;
+      }
+      #emergencies{
+        position: relative;
+        left: 20px;
+        width: 350px;
+        height: 250px;
+        bottom: 450px;
+      }
+      #first_para{
+        position: relative;
+        top: 180px;
+        width: 300px;
+        font-size: 12px;
+        left: 30px;
+      }
+      #para_img{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        bottom: 280px;
+        left: 50px;
+      }
+      #first_para1{
+        position: relative;
+        bottom: 250px;
+        width: 300px;
+        font-size: 12px;
+        left: 30px;
+      }
+     #para_img_3{
+        width: 250px;
+        height: 250px;
+        bottom: 420px;
+        left: 50px;
+     }
+     #first_para2{
+        width: 300px;
+        font-size: 12px;
+        top: 90px;
+        left: 30px;
+     }
+     #para_img1{
+        width: 250px;
+        height: 250px;
+        left: 50px;
+     }
+     #first_para3{
+        width: 300px;
+        font-size: 12px;
+        bottom: 75px;
+        left: 30px;
+     }
+     #five_img{
+        width: 250px;
+        height: 200px;
+        left: 50px;
+        bottom: 200px;
+     }
+     #first_para4{
+        width: 300px;
+        font-size: 12px;
+        top: 200px;
+     }
+     .wrapper{
+        top: 100px;
+     }
+     .testimonial_heading{
+        font-size: 20px;
+        top: 560px;
+     }
+     /* it is a testimonial section*/
+     .Test_para{
+        width: 230px;
+        font-size: 8px;
+     }
+    
+     .testimonial{
+        width: 270px;
+        height: 270px;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+     }
+     .test_img{
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: 60px;
+     }
+     .test_name{
+        font-size: 12px;
+        left: 65px;
+     }
+    .slider{
+        display: grid;
+        row-gap: 50px;
+        
+    }
+    #testimonial1{
+        position: relative;
+        
+    }
+     /* footer section contact */
+     #comment_icon{
+        font-size: 10px;
+     }
+     .chat_supp{
+        font-size: 10px;
+        right: 10px;
+     }
+     /* feature section */
+      /* icons */
+      .social_icons{
+        position: absolute;
+        left: 300px;
+        font-size: 17px;
+        color: white;
+
+      }
+      .about_us{
+        position: relative;
+        top: 200px;
+        right: 280px;
+
+      }
+      .name{
+        font-size: 13px;
+      }
+      .about-us{
+        font-size: 18px;
+      }
+      .f-section{
+        position: relative;
+        top: 200px;
+        right: 260px;
+      }
+      .footer{
+        height: 700px;
+      }
+      .footer{ /*footer */
+        position: relative;
+        top: 700px;
+      }
+     body{
+        position: relative;
+        
+        overflow: hidden;
+        overflow-y: auto;
+     }
+
+     .sidenav {
+      
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.3s;
+        padding-top: 60px;
+        z-index: 1;
+    }
+    
+    /* Links inside the side navigation */
+    .sidenav a {
+        padding: 15px 20px;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    /* Change color on hover */
+    .sidenav a:hover {
+        background-color: #575757;
+    }
+    
+    /* Close button (X) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+    }
+    
+    /* The button to open the side nav */
+    .openbtn {
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        padding: 10px 15px;
+        border: none;
+        font-size: 24px;
+        position: absolute;
+        right: 310px
+        
+
+    }
+    
+    .openbtn:hover {
+        background-color: #444;
+    }
+}
+

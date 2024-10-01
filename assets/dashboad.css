@@ -1,0 +1,899 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.logo_name {
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    position: relative;
+    right: 100px;
+}
+
+.logo_btn {
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    padding: 8px;
+    background-color: #1A2845;
+    color: white;
+    border: unset;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: px;
+}
+
+.logo_btn:hover {
+    color: black;
+    background-color: white;
+    transition-duration: 0.2s;
+    border: 1px solid rgba(0, 0, 0, 0.416);
+}
+
+.header {
+    position: relative;
+    left: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.main_page_word {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 45px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.dashboard {
+    font-family: "Poppins", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    color: black;
+
+}
+
+.dashboard:hover {
+    text-decoration: underline;
+    transition-duration: 2s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.product {
+    display: flex;
+    gap: 40px;
+}
+
+#dashboard {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.733);
+}
+
+.dashboard_name {
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+
+}
+
+.List-of-name {
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.cash {
+    width: 250px;
+    height: 75px;
+    border: 2px solid rgba(0, 0, 0, 0.116);
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.cash_place {
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    padding: 5px;
+    color: black
+    
+}
+#net_name{
+    color: black;
+}
+
+.cash_amount {
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    padding: px;
+    position: relative;
+    left: 50px;
+    bottom: 12px;
+}
+.list_of-account {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50px;
+    right: 50px;
+}
+
+.List-of-name {
+    position: relative;
+    left: 80px;
+    position: relative;
+    top: 40px;
+
+}
+
+#cash_box {
+    background-color: white;
+}
+
+#expanses_box{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+}
+#cash_name_cash {
+    color: black;
+}
+
+#expanses {
+    color: black;
+}
+
+#cash {
+    color: black;
+}
+
+.add {
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.53);
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 70px;
+    left: 38%;
+    border-radius: 10px;
+    background-color: #1A2845;
+    color: white;
+    cursor: pointer;
+}
+
+#plus_icon {
+    font-size: 29px;
+
+
+}
+
+.add_button_name {
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.Cash{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+}
+/* its is add button style*/
+.btn_content{
+    width: 130px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 42%;
+    top: 260px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.add_name{
+    position: relative;
+    top: 5px;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+    
+}
+#add_plus_bnt{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    
+}
+#add_name{
+    cursor: pointer;
+}
+
+
+/* last transaction */
+.last_transaction_name{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size:28px;
+    position: relative;
+    top: 130px;
+    left: -10px;
+}
+#table_heading{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#last_activites_section{
+    width: 670px;
+    height: 100%;
+    position: relative;
+    bottom: 360px;
+    right: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.516);
+}
+#table_value_display{
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size:20px;
+    left: 20px;
+    position: relative;
+    border: none;
+    color: rgba(0, 0, 0, 0.721);
+}
+.table_value{
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+
+}
+.table_heading{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.676);
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: bold;
+    font-size:25px;
+    background-color: #1a284575;
+    color: white;
+}
+
+.last_activity{
+    position: absolute;
+    left: 45%;
+}
+.table_body{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.676);
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+    position: relative;
+    left: 10px;
+}
+/* popup car things*/
+.whole_card{
+    position: absolute;
+    left: 30%;
+    bottom: 50px;
+    z-index: 1;
+    
+}
+.card_content{
+    display: none;
+    width: 450px;
+    height: 390px;
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.596);
+    border-radius: 5px;
+}
+.heading_add{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+}
+.labels{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size:24px;
+    position: relative;
+    left: 20px;
+    
+}
+.input{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.279);
+    outline: none;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+
+}
+#date_input{
+    width: 220px;
+    position: relative;
+    left: 100px;
+}
+#amount_input{
+    position: relative;
+    left: 58px;
+}
+#Category_input{
+    position: relative;
+    left: 41px;
+}
+#dropdown_account{
+    width: 230px;
+    position: relative;
+    left: 50px;
+}
+.save{
+    width: 140px;
+    height: 40px;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size:22px;
+    color: white;
+    background-color: #1A2845;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    position: absolute;
+    left: 160px;
+    cursor: pointer;
+}
+.valid{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size:15px;
+    position: absolute;
+    bottom: 20px;
+    left: 37%;
+    color: red;
+    
+}
+#close_marks{
+    font-size: 30px;
+    position: relative;
+    left: 90%;
+    top: 20px;
+    cursor: pointer;
+
+}
+#close_marks:hover{
+    color: rgba(0, 0, 0, 0.644);
+}
+
+
+/* footer section */
+.footer{
+    position: relative;
+    top: 600px;
+    right: 100px;
+}
+.feature{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #1877F2;
+}
+.name{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+}
+.about-us{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #1877F2;
+
+}
+.f-section{
+    display: flex;
+    gap: 190px;
+}
+#comment_icon{
+    font-size: 25px;
+}
+.chat_supp{
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    position: relative;
+    
+}
+.name{
+    color: white;
+    cursor: pointer;
+}
+
+.chatbox{
+    display: flex;
+    gap: 20px;
+    color: white; 
+}
+#footer_{
+    width: 1300px;
+    height: 500px;
+    background-color: #1A2845;
+    position: relative;
+    
+    
+}
+.chart_name{
+    display: none;
+}
+.footer_sec{
+    display: flex;
+    gap: 110px; 
+    position: relative;
+    top: 50px;
+    
+}
+.contact{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#s_icon{
+    color: white;
+    font-size: 30px;
+}
+.social_icons{
+    position: relative;
+    left: 230px;
+}
+#sc_icon{
+    color: white;
+    font-size: 13px;
+}
+.copy{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: white;
+    position: relative;
+    bottom: 2px;
+}
+.copywrite{
+    display: flex;
+    gap: 5px;
+    position: relative;
+    top: 290px;
+    left: 500px;
+
+}
+#footer_{
+    position: relative;
+    right:570px;
+}
+/* Donut chart css */
+
+#myDoughnutChart{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    
+
+}
+/*delete popup message*/
+.delete_btn_div{
+    width: 300px;
+    height: 100px;
+    border: 2px solid rgba(0, 0, 0, 0.388);
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+    display: none;
+    left: 20%;
+    top: 30%;
+    z-index: 1;
+    
+}
+.delete_slogan{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: relative;
+    left: 25px;
+}
+.delete_btn{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    background-color:  rgb(220, 53, 69);
+    color: white;
+    border: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+    position: relative;
+    left: 20px;
+    bottom: -1px;
+    cursor: pointer;
+    box-shadow: #1a284575;
+
+}
+.delete_btn:hover{
+   background-color:  rgb(180, 44, 58);
+}
+.cancel_btn{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+    position: relative;
+    left: 20px;
+    bottom: -1px;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.384);
+}
+.remove_btn{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    background-color:  rgb(220, 53, 69);
+    color: white;
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    
+}
+#three_bar{
+    display: none;
+}
+body{
+    overflow: hidden;
+    overflow-y: auto;
+}
+.openbtn{
+    display: none;
+}
+
+@media only screen and (max-width: 430px){
+    body{
+        overflow: hidden;
+        overflow-y: auto;
+    }
+   
+    .logo_name{
+        font-size: 17px;
+        position: relative;
+        right: 50px;
+        top: 15px;
+    }
+    .dashboard{
+        display: none;
+    }
+    .logo_btn{
+        width: 80px;
+        height: 40px;
+        font-size: 15px;
+        position: relative;
+        right: 45px;
+    }
+    .List-of-name{
+        font-size: 20px;
+    }
+    .list_of-account{
+        display: block;
+        position: relative;
+        left: 50px;
+        
+    }
+    #expanses_box{
+        position: relative;
+        top: 20px;
+    }
+    #total_box{
+        position: relative;
+        top: 40px;
+    }
+    .add_btn{
+        position: relative;
+        top: -130px;
+        right: 30px;
+    }
+    /* popup add card */
+    .card_content{
+        display: none;
+        position: absolute;
+        bottom: -80%;
+        bottom: 100px;
+        width: 300px;
+        left: -80px;
+        height: 350px;
+        
+    }
+    .heading_add{
+        font-size: 20px;
+        position: relative;
+        left: -10px;
+    }
+    .labels{
+        font-size: 13px;
+    }
+    .input{
+        font-size: 13px;
+        width: 150px;
+    }
+    #date_input{
+        width: 150px;
+        position: relative;
+        left: 60px;
+    }
+    #amount_input{
+        width: 150px;
+        position: relative;
+        left: 40px;
+    }
+    #Category_input{
+        left: 30px;
+    }
+    #dropdown_account{
+        width: 150px;
+        left: 40px;
+    }
+    .save{
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+        left: 90px;
+    }
+    .valid{
+        font-size: 10px;
+        position: absolute;
+        bottom: 180px;
+        left: 100px;
+    }
+    #close_marks{
+        font-size: 25px;
+        left: 265px;
+    }
+    .last_transaction_name{
+        font-size: 20px;
+        top: 230px;
+        left: 80px;
+        font-weight: 600;
+    }
+    .table_heading{
+        font-weight: 600;
+        font-size: 12px;
+        background-color: white;
+        
+        color: black;
+    }
+    #last_activites_section{
+        width: 330px;
+    }
+    .table_body{
+        font-size: 10px;
+    }
+    .last_activity{
+        position: relative;
+        left: 20px;
+        top: 150px;
+    }
+    #myDoughnutChart{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: 330px;
+    }
+    /*footer */
+    .footer{
+        position: relative;
+        top: 500px;
+    }
+    #comment_icon{
+        font-size: 10px;
+        position: relative;
+        left: 550px;
+     }
+     .chat_supp{
+        font-size: 10px;
+        right: 10px;
+        left: 540px;
+     }
+     /* feature section */
+      /* icons */
+      .social_icons{
+        position: absolute;
+        left: 870px;
+        font-size: 17px;
+        color: white;
+
+      }
+      .about_us{
+        position: relative;
+        bottom: -120px;
+        right: 325px;
+        
+
+      }
+      .name{
+        font-size: 13px;
+      }
+      .about-us{
+        font-size: 18px;
+        
+      }
+      .f-section{
+        position: relative;
+        top: 200px;
+        left: 280px;
+      }
+      
+      #footer_{ /*footer */
+
+        position: relative;
+        top: 700px;
+        height: 600px;
+      }
+      
+     body{
+        overflow: hidden;
+        overflow-y: auto;
+     }
+     .copywrite{
+        display: none;
+     }
+     .delete_slogan{
+        font-size: 15px;
+     }
+     .delete_btn_div{
+        width: 200px;
+        top: 190px;
+     }
+     .chart_name{
+        display: block;
+        font-family: "Poppins", system-ui;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        position: relative;
+        top: 250px;
+        left: 80px;
+
+     }
+
+     .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.3s;
+        padding-top: 60px;
+        z-index: 1;
+    }
+    
+    /* Links inside the side navigation */
+    .sidenav a {
+        padding: 15px 20px;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    /* Change color on hover */
+    .sidenav a:hover {
+        background-color: #575757;
+    }
+    
+    /* Close button (X) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+    }
+    
+    /* The button to open the side nav */
+    .openbtn {
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        padding: 10px 15px;
+        border: none;
+        font-size: 25px;
+        position: absolute;
+        
+
+    }
+    
+    .openbtn:hover {
+        background-color: #444;
+    }
+
+}
+
