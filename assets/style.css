@@ -251,6 +251,15 @@ a{
     position: relative;
     left: 20px;
 }
+#first_para3{
+    width: 700px;
+}
+#first_para4{
+    width: 700px;
+}
+#first_para1{
+    width: 700px;
+}
 .para_img{
     width: 455px;
     height: 423px;
@@ -300,7 +309,7 @@ a{
     left: 60px;
 }
 #five_img{
-    width: 445px;
+    width: 400px;
     height: 303px;
     position: relative;
     bottom: 70px;
@@ -312,7 +321,7 @@ a{
     font-style: normal;
     font-size: 36px;
     position: relative;
-    top: 400px;
+    top: 480px;
     display: flex;
     justify-content: center;
 }
@@ -369,8 +378,6 @@ a{
     transition-duration: 0.5s;
 }
 
-
-
 .card{
     position: relative;
     top: 30px;
@@ -378,15 +385,13 @@ a{
     cursor: pointer;
 
 }
-
-
-.wrapper{
+.slider{
     display: flex;
-    justify-content:space-evenly ;
-    position: relative;
-    bottom: 30px;
-    
+    justify-content: center;
+    gap: 20px;
 }
+
+
 #jessy{
     position: relative;
     right: 50px;
